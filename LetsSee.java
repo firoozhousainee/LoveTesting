@@ -18,10 +18,12 @@ public class A extends Parent {
 		System.out.println("Test 1");
 		
 	}
+	
 	@Test
-	public void two() {
+	public void four() {
 		
-		System.out.println("Test 2");
+		System.out.println("Test 4");
+		System.out.println("I JenKins updating??????????? ")
 		
 	}
 
