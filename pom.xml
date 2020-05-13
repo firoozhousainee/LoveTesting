@@ -3,5 +3,10 @@
   <groupId>TestNGFrameWork</groupId>
   <artifactId>TestNGFrameWork</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+   <dependencies>
+
+</dependencies>
+
   <name>Barn2Door</name>
 </project>

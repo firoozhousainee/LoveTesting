@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Smoke">
-
+	<parameter name="URL" value ="barn2door.com"/>
 	<test name="Smoke Tests">
-  <packages>
-  	<package name="classesPackage"/>
-  </packages>
+	<groups>
+		<run>
+			<include name="Smoke"/>
+		</run>
+	</groups>
+  <classes>
+      <class name="classesPackage.Parent"/>
+      <class name="classesPackage.Login"/>
+      <class name="classesPackage.A"/>
+  </classes>
     
   </test>
 </suite> 

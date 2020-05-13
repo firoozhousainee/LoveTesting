@@ -2,56 +2,76 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-12T17:50:53 PDT" name="Default suite" finished-at="2020-05-12T17:50:53 PDT" duration-ms="28">
+  <suite started-at="2020-05-13T13:12:54 PDT" name="Barn2Door Home Page" finished-at="2020-05-13T13:12:54 PDT" duration-ms="35">
     <groups>
     </groups>
-    <test started-at="2020-05-12T17:50:53 PDT" name="Default test" finished-at="2020-05-12T17:50:53 PDT" duration-ms="28">
-      <class name="classesPackage.Login">
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:classesPackage.Login@7ff95560]" started-at="2020-05-12T17:50:53 PDT" name="LaunchBrowser" finished-at="2020-05-12T17:50:53 PDT" duration-ms="5" status="PASS">
+    <test started-at="2020-05-13T13:12:54 PDT" name="Home Page Testing" finished-at="2020-05-13T13:12:54 PDT" duration-ms="35">
+      <class name="classesPackage.Parameterization">
+        <test-method signature="RunParameterizaion(java.lang.String, java.lang.String)[pri:0, instance:classesPackage.Parameterization@527e5409]" started-at="2020-05-13T13:12:54 PDT" name="RunParameterizaion" finished-at="2020-05-13T13:12:54 PDT" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[barn2door.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchBrowser -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:classesPackage.Login@7ff95560]" started-at="2020-05-12T17:50:53 PDT" name="Login" finished-at="2020-05-12T17:50:53 PDT" duration-ms="1" status="PASS">
+        </test-method> <!-- RunParameterizaion -->
+        <test-method signature="regForm(java.lang.String, java.lang.String)[pri:0, instance:classesPackage.Parameterization@527e5409]" started-at="2020-05-13T13:12:54 PDT" name="regForm" data-provider="getData" finished-at="2020-05-13T13:12:54 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:classesPackage.Login@7ff95560]" started-at="2020-05-12T17:50:53 PDT" name="LaunchApplication" finished-at="2020-05-12T17:50:53 PDT" duration-ms="1" status="PASS">
+        </test-method> <!-- regForm -->
+        <test-method signature="regForm(java.lang.String, java.lang.String)[pri:0, instance:classesPackage.Parameterization@527e5409]" started-at="2020-05-13T13:12:54 PDT" name="regForm" data-provider="getData" finished-at="2020-05-13T13:12:54 PDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchApplication -->
-        <test-method signature="LoginAPIHome()[pri:0, instance:classesPackage.Login@7ff95560]" started-at="2020-05-12T17:50:53 PDT" name="LoginAPIHome" finished-at="2020-05-12T17:50:53 PDT" duration-ms="3" status="PASS">
+        </test-method> <!-- regForm -->
+        <test-method signature="regForm(java.lang.String, java.lang.String)[pri:0, instance:classesPackage.Parameterization@527e5409]" started-at="2020-05-13T13:12:54 PDT" name="regForm" data-provider="getData" finished-at="2020-05-13T13:12:54 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginAPIHome -->
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:classesPackage.Login@7ff95560]" started-at="2020-05-12T17:50:53 PDT" name="LaunchApplication" finished-at="2020-05-12T17:50:53 PDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchApplication -->
-        <test-method signature="MobileLoginHome()[pri:0, instance:classesPackage.Login@7ff95560]" started-at="2020-05-12T17:50:53 PDT" name="MobileLoginHome" finished-at="2020-05-12T17:50:53 PDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginHome -->
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:classesPackage.Login@7ff95560]" started-at="2020-05-12T17:50:53 PDT" name="LaunchApplication" finished-at="2020-05-12T17:50:53 PDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchApplication -->
-        <test-method signature="MobileLoginOut()[pri:0, instance:classesPackage.Login@7ff95560]" started-at="2020-05-12T17:50:53 PDT" name="MobileLoginOut" finished-at="2020-05-12T17:50:53 PDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginOut -->
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:classesPackage.Login@7ff95560]" started-at="2020-05-12T17:50:53 PDT" name="LaunchApplication" finished-at="2020-05-12T17:50:53 PDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchApplication -->
-        <test-method signature="WebLoginHome()[pri:0, instance:classesPackage.Login@7ff95560]" started-at="2020-05-12T17:50:53 PDT" name="WebLoginHome" finished-at="2020-05-12T17:50:53 PDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebLoginHome -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:classesPackage.Login@7ff95560]" started-at="2020-05-12T17:50:53 PDT" name="AfterTest" finished-at="2020-05-12T17:50:53 PDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterTest -->
-      </class> <!-- classesPackage.Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- regForm -->
+      </class> <!-- classesPackage.Parameterization -->
+    </test> <!-- Home Page Testing -->
+  </suite> <!-- Barn2Door Home Page -->
 </testng-results>
