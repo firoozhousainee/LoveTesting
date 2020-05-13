@@ -1,18 +1,38 @@
 package classesPackage;
 
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class Login {
 	
-	@BeforeTest
+	@BeforeSuite
+	  public void LaunchBrowser() {
+		  
+		  // selenium code 
+		  System.out.println("First, launch the Browser");
+		  
+	  }
+	
+	@BeforeMethod
 	  public void LaunchApplication() {
 		  
 		  // selenium code 
-		  System.out.println("First, launch the URL, Barn2Door");
+		  System.out.println("First, launch the application, Barn2Door");
 		  
 	  }
+	@BeforeClass
+	  public void Login() {
+		  
+		  // selenium code 
+		  System.out.println("Before executing the class, execute this ...");
+		  
+	  }
+	
   @Test
   public void WebLoginHome() {
 	  
@@ -39,7 +59,7 @@ public class Login {
 	  // Rest API automation
 	  System.out.println("API LoginHome");
   }
-  @AfterTest
+  @AfterSuite
   public void AfterTest() {
 	  
 	  // selenium code 
