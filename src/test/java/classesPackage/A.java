@@ -1,25 +1,29 @@
 package classesPackage;
 
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import org.testng.annotations.*;
 
+@Test
 public class A {
 	
-@Test(groups= {"Smoke"})
-  public void Search() {
+public void Search() {
 	  
 	  System.out.println("This method will test the search feature");
   }
   
   
-  @Test
   public void beforeMethod() {
 	  
 	 
 	  System.out.println("Before method");
   }
-  @Test(groups= {"Smoke"})
   public void TestScroll() {
 	  System.out.println("Testing scrolling feature");
   }
@@ -63,11 +67,11 @@ public class A {
   public void afterSuite() {
 	  System.out.println("After suite executre this one ...");
   }
-  @Parameters({"URL"})   // using @Parameters 
-  @Test
-  public void OnlyRunMe(String urlName) {
-	  System.out.println(" I am using 'Include' method");
-	  System.out.println("IS it printing ???????????" + urlName);
-  }
+  
+//  @Parameters({"URL"})   // using @Parameters 
+//  public void OnlyRunMe(String urlName) {
+//	  System.out.println(" I am using 'Include' method");
+//	  System.out.println("IS it printing ???????????" + urlName);
+//  }
 
 }

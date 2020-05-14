@@ -1,15 +1,17 @@
 package classesPackage;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Parameterization {
-	@Parameters({"URL", "APIKey/username"})
+//	@Parameters({"URL", "APIKey/username"})
 	@Test
-  public void RunParameterizaion(String urlName, String key) {
-		System.out.println( "Is Barn2Door URL openning? " + urlName);
-		System.out.println("Is the key printing? " + key);
+  public void RunParameterizaion() {
+//		System.out.println( "Is Barn2Door URL openning? " + urlName);
+//		System.out.println("Is the key printing? " + key);
   }
 	
 	@Test(dataProvider="getData")
@@ -40,8 +42,6 @@ public class Parameterization {
 		data[2][1] ="thirdpassword";
 		
 		return data;  
-		
-		
 		
 	}
 }

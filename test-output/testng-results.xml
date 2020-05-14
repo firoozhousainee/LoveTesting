@@ -1,37 +1,222 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="7" total="11" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-13T13:33:08 PDT" name="Smoke" finished-at="2020-05-13T13:33:08 PDT" duration-ms="37">
+  <suite started-at="2020-05-13T19:23:15 PDT" name="Regression" finished-at="2020-05-13T19:23:15 PDT" duration-ms="74">
     <groups>
+      <group name="Regression">
+        <method signature="Login.MobileLoginHome()[pri:0, instance:classesPackage.Login@78e94dcf]" name="MobileLoginHome" class="classesPackage.Login"/>
+      </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="A.Search()[pri:0, instance:classesPackage.A@2805c96b]" name="Search" class="classesPackage.A"/>
-        <method signature="A.TestScroll()[pri:0, instance:classesPackage.A@2805c96b]" name="TestScroll" class="classesPackage.A"/>
-        <method signature="Login.LoginAPIHome()[pri:0, instance:classesPackage.Login@4fe767f3]" name="LoginAPIHome" class="classesPackage.Login"/>
-        <method signature="Login.WebLoginHome()[pri:0, instance:classesPackage.Login@4fe767f3]" name="WebLoginHome" class="classesPackage.Login"/>
+        <method signature="Login.LoginAPIHome()[pri:0, instance:classesPackage.Login@78e94dcf]" name="LoginAPIHome" class="classesPackage.Login"/>
+        <method signature="Login.WebLoginHome()[pri:0, instance:classesPackage.Login@78e94dcf]" name="WebLoginHome" class="classesPackage.Login"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2020-05-13T13:33:08 PDT" name="Smoke Tests" finished-at="2020-05-13T13:33:08 PDT" duration-ms="37">
+    <test started-at="2020-05-13T19:23:15 PDT" name="AllTests" finished-at="2020-05-13T19:23:15 PDT" duration-ms="74">
       <class name="classesPackage.Login">
-        <test-method signature="LoginAPIHome()[pri:0, instance:classesPackage.Login@4fe767f3]" started-at="2020-05-13T13:33:08 PDT" name="LoginAPIHome" finished-at="2020-05-13T13:33:08 PDT" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:classesPackage.Login@78e94dcf]" started-at="2020-05-13T19:23:15 PDT" name="LaunchBrowser" finished-at="2020-05-13T19:23:15 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:classesPackage.Login@78e94dcf]" started-at="2020-05-13T19:23:15 PDT" name="LaunchApplication" finished-at="2020-05-13T19:23:15 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:classesPackage.Login@78e94dcf]" started-at="2020-05-13T19:23:15 PDT" name="Login" finished-at="2020-05-13T19:23:15 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="LoginAPIHome()[pri:0, instance:classesPackage.Login@78e94dcf]" started-at="2020-05-13T19:23:15 PDT" name="LoginAPIHome" finished-at="2020-05-13T19:23:15 PDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAPIHome -->
-        <test-method signature="WebLoginHome()[pri:0, instance:classesPackage.Login@4fe767f3]" started-at="2020-05-13T13:33:08 PDT" name="WebLoginHome" finished-at="2020-05-13T13:33:08 PDT" duration-ms="1" status="PASS">
+        <test-method signature="MobileLoginHome()[pri:0, instance:classesPackage.Login@78e94dcf]" started-at="2020-05-13T19:23:15 PDT" name="MobileLoginHome" finished-at="2020-05-13T19:23:15 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHome -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:classesPackage.Login@78e94dcf]" started-at="2020-05-13T19:23:15 PDT" name="LaunchApplication" finished-at="2020-05-13T19:23:15 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:classesPackage.Login@78e94dcf]" started-at="2020-05-13T19:23:15 PDT" name="LaunchApplication" finished-at="2020-05-13T19:23:15 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="WebLoginHome()[pri:0, instance:classesPackage.Login@78e94dcf]" started-at="2020-05-13T19:23:15 PDT" name="WebLoginHome" finished-at="2020-05-13T19:23:15 PDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebLoginHome -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:classesPackage.Login@78e94dcf]" started-at="2020-05-13T19:23:15 PDT" name="LaunchApplication" finished-at="2020-05-13T19:23:15 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="CrwolinHomePage()[pri:0, instance:classesPackage.Login@78e94dcf]" started-at="2020-05-13T19:23:15 PDT" name="CrwolinHomePage" finished-at="2020-05-13T19:23:15 PDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CrwolinHomePage -->
+        <test-method signature="DisputeSubmit()[pri:0, instance:classesPackage.Login@78e94dcf]" started-at="2020-05-13T19:23:15 PDT" name="DisputeSubmit" finished-at="2020-05-13T19:23:15 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DisputeSubmit -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:classesPackage.Login@78e94dcf]" started-at="2020-05-13T19:23:15 PDT" name="LaunchApplication" finished-at="2020-05-13T19:23:15 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:classesPackage.Login@78e94dcf]" started-at="2020-05-13T19:23:15 PDT" name="LaunchApplication" finished-at="2020-05-13T19:23:15 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="MobileLogOut()[pri:0, instance:classesPackage.Login@78e94dcf]" started-at="2020-05-13T19:23:15 PDT" name="MobileLogOut" finished-at="2020-05-13T19:23:15 PDT" depends-on-methods="classesPackage.Login.MobileLoginHome, classesPackage.Login.LoginAPIHome" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogOut -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:classesPackage.Login@78e94dcf]" started-at="2020-05-13T19:23:15 PDT" name="AfterTest" finished-at="2020-05-13T19:23:15 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
       </class> <!-- classesPackage.Login -->
+      <class name="classesPackage.Parameterization">
+        <test-method signature="RunParameterizaion()[pri:0, instance:classesPackage.Parameterization@358ee631]" started-at="2020-05-13T19:23:15 PDT" name="RunParameterizaion" finished-at="2020-05-13T19:23:15 PDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunParameterizaion -->
+        <test-method signature="regForm(java.lang.String, java.lang.String)[pri:0, instance:classesPackage.Parameterization@358ee631]" started-at="2020-05-13T19:23:15 PDT" name="regForm" data-provider="getData" finished-at="2020-05-13T19:23:15 PDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regForm -->
+        <test-method signature="regForm(java.lang.String, java.lang.String)[pri:0, instance:classesPackage.Parameterization@358ee631]" started-at="2020-05-13T19:23:15 PDT" name="regForm" data-provider="getData" finished-at="2020-05-13T19:23:15 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regForm -->
+        <test-method signature="regForm(java.lang.String, java.lang.String)[pri:0, instance:classesPackage.Parameterization@358ee631]" started-at="2020-05-13T19:23:15 PDT" name="regForm" data-provider="getData" finished-at="2020-05-13T19:23:15 PDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regForm -->
+      </class> <!-- classesPackage.Parameterization -->
+      <class name="classesPackage.Parent">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:classesPackage.Parent@37918c79]" started-at="2020-05-13T19:23:15 PDT" name="beforeSuite" finished-at="2020-05-13T19:23:15 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:classesPackage.Parent@37918c79]" started-at="2020-05-13T19:23:15 PDT" name="beforeTest" finished-at="2020-05-13T19:23:15 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:classesPackage.Parent@37918c79]" started-at="2020-05-13T19:23:15 PDT" name="beforeClass" finished-at="2020-05-13T19:23:15 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:classesPackage.Parent@37918c79]" started-at="2020-05-13T19:23:15 PDT" name="beforeMethod" finished-at="2020-05-13T19:23:15 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f()[pri:0, instance:classesPackage.Parent@37918c79]" started-at="2020-05-13T19:23:15 PDT" name="f" finished-at="2020-05-13T19:23:15 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:classesPackage.Parent@37918c79]" started-at="2020-05-13T19:23:15 PDT" name="afterClass" finished-at="2020-05-13T19:23:15 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:classesPackage.Parent@37918c79]" started-at="2020-05-13T19:23:15 PDT" name="afterMethod" finished-at="2020-05-13T19:23:15 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:classesPackage.Parent@37918c79]" started-at="2020-05-13T19:23:15 PDT" name="afterTest" finished-at="2020-05-13T19:23:15 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:classesPackage.Parent@37918c79]" started-at="2020-05-13T19:23:15 PDT" name="afterSuite" finished-at="2020-05-13T19:23:15 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- classesPackage.Parent -->
       <class name="classesPackage.A">
-        <test-method signature="Search()[pri:0, instance:classesPackage.A@2805c96b]" started-at="2020-05-13T13:33:08 PDT" name="Search" finished-at="2020-05-13T13:33:08 PDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:classesPackage.A@233fe9b6]" started-at="2020-05-13T19:23:15 PDT" name="beforeSuite" finished-at="2020-05-13T19:23:15 PDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:classesPackage.A@233fe9b6]" started-at="2020-05-13T19:23:15 PDT" name="beforeTest" finished-at="2020-05-13T19:23:15 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:classesPackage.A@233fe9b6]" started-at="2020-05-13T19:23:15 PDT" name="beforeClass" finished-at="2020-05-13T19:23:15 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Search()[pri:0, instance:classesPackage.A@233fe9b6]" started-at="2020-05-13T19:23:15 PDT" name="Search" finished-at="2020-05-13T19:23:15 PDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="TestScroll()[pri:0, instance:classesPackage.A@2805c96b]" started-at="2020-05-13T13:33:08 PDT" name="TestScroll" finished-at="2020-05-13T13:33:08 PDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:classesPackage.A@233fe9b6]" started-at="2020-05-13T19:23:15 PDT" name="afterMethod" finished-at="2020-05-13T19:23:15 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="TestScroll()[pri:0, instance:classesPackage.A@233fe9b6]" started-at="2020-05-13T19:23:15 PDT" name="TestScroll" finished-at="2020-05-13T19:23:15 PDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestScroll -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:classesPackage.A@233fe9b6]" started-at="2020-05-13T19:23:15 PDT" name="afterMethod" finished-at="2020-05-13T19:23:15 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="beforeMethod()[pri:0, instance:classesPackage.A@233fe9b6]" started-at="2020-05-13T19:23:15 PDT" name="beforeMethod" finished-at="2020-05-13T19:23:15 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:classesPackage.A@233fe9b6]" started-at="2020-05-13T19:23:15 PDT" name="afterClass" finished-at="2020-05-13T19:23:15 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:classesPackage.A@233fe9b6]" started-at="2020-05-13T19:23:15 PDT" name="afterMethod" finished-at="2020-05-13T19:23:15 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:classesPackage.A@233fe9b6]" started-at="2020-05-13T19:23:15 PDT" name="afterTest" finished-at="2020-05-13T19:23:15 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:classesPackage.A@233fe9b6]" started-at="2020-05-13T19:23:15 PDT" name="afterSuite" finished-at="2020-05-13T19:23:15 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
       </class> <!-- classesPackage.A -->
-    </test> <!-- Smoke Tests -->
-  </suite> <!-- Smoke -->
+    </test> <!-- AllTests -->
+  </suite> <!-- Regression -->
 </testng-results>
