@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.*;
 
 @Test
-public class A {
+public class A extends SeleniumDrivers{
 	
 public void Search() {
 	  
@@ -21,7 +21,7 @@ public void Search() {
   
   public void beforeMethod() {
 	  
-	 
+	  
 	  System.out.println("Before method");
   }
   public void TestScroll() {

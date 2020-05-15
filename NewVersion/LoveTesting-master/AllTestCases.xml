@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+  <test thread-count="5" name="AllTests">
+  
+  <parameter name="URL" value ="barn2door.com"/>
+  
+    <classes>
+      <class name="classesPackage.Parameterization"/>
+      <class name="classesPackage.Parent"/>
+      <class name="classesPackage.Login"/>
+      <class name="classesPackage.A"/>
+    </classes>
+  </test> <!-- AllTests -->
+</suite> <!-- Regression -->

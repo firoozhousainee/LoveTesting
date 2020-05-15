@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Barn2Door Home Page">
+
+	<listeners>
+		<listener class-name="classesPackage.Listeners"/>
+	</listeners>
+		<parameter name="URL" value ="barn2door.com"/>
+		<parameter name="APIKey/username" value ="123456"/>
+		<test name="Home Page Testing">
+ 
+    <classes>
+      <class name="classesPackage.Parameterization"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
+
+
+
+
