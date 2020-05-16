@@ -5,7 +5,7 @@
     <classes>
       <class name="classesPackage.SeleniumDrivers">
         <methods>
-          <include name="f"/>
+          <include name="GetURL"/>
         </methods>
       </class> <!-- classesPackage.SeleniumDrivers -->
     </classes>
